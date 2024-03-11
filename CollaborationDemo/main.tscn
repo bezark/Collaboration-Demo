@@ -1,12 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://crmtew8h1dl8n"]
 
 [ext_resource type="Texture2D" uid="uid://b166foptvlxe4" path="res://icon.svg" id="1_fuxma"]
-
 [ext_resource type="PackedScene" uid="uid://chs4ricyaarcp" path="res://level.tscn" id="2_lql74"]
 
 [node name="Node2D" type="Node2D"]
-
-[node name="object" parent="." instance=ExtResource("1_stscw")]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(401, 358)
