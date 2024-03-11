@@ -1,9 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://crmtew8h1dl8n"]
+[gd_scene load_steps=3 format=3 uid="uid://crmtew8h1dl8n"]
 
 [ext_resource type="Texture2D" uid="uid://b166foptvlxe4" path="res://icon.svg" id="1_fuxma"]
+[ext_resource type="PackedScene" uid="uid://chs4ricyaarcp" path="res://level.tscn" id="2_lql74"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(472, 343)
+position = Vector2(401, 358)
 texture = ExtResource("1_fuxma")
+
+[node name="Level" parent="Sprite2D" instance=ExtResource("2_lql74")]
+position = Vector2(-399, 215)
